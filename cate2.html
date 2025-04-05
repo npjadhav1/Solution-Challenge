@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheRuralHorizon Header</title>
+    <link rel="stylesheet" href="cate2.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <span>TheRuralHorizon</span>
+        </div>
+        <div class="icons">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="product-image">
+            <span class="new-badge">New</span>
+            <img src="images/b1.jpg" alt="Hand Made Potter">
+        </div>
+        <div class="product-details">
+            <div class="product-title">
+                <h2>HAND MADE POTTER</h2>
+                <hr>
+            </div>
+            <p class="product-description">The man's hands are covered in clay, actively shaping a pot on a spinning potter's wheel. The wheel is a circular, rotating platform, a fundamental tool for this craft.</p>
+            <p class="product-price">₱150</p>
+            <span class="free-shipping">Free Shipping</span>
+            <div class="quantity-controls">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+            <script>
+                function addToCart() {
+                    // Redirect to the next HTML page
+                    window.location.href = "cart2.html"; // Replace "cart.html" with the actual filename of your next page
+                }
+            </script>
+        </div>
+    </div>
+
+    <div class="related-products-container">
+        <div class="related-products-header">
+            <h2>Related products</h2>
+        </div>
+        <div class="related-products-grid">
+            <div class="product-card">
+                <span class="new-badge">New</span>
+                <img src="images/a2.jpg" alt="Pottery Painting">
+                <div class="product-card-content">
+                    <h3>Pottery Painting</h3>
+                    <p>₱30</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <span class="new-badge">New</span>
+                <img src="images/a4.jpg" alt="Hand-Painted Ceramic Pottery">
+                <div class="product-card-content">
+                    <h3>Hand-Painted Ceramic Pottery</h3>
+                    <p>₱200</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="category2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <img src="a4.jpg" alt="">
+            <h2>Basket Weaving</h2>
+            <p>Price: ₱70.00</p>
+            <button class="add-to-cart" data-name="Basket Weaving" data-price="70">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="a2.jpg" alt="">
+            <h2>Hand made potter</h2>
+            <p>Price: ₱450.00</p>
+            <button class="add-to-cart" data-name="Hand made potter" data-price="450">Add to Cart</button>
+        </div>
+
+        <div id="cart" class="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                </div>
+            <p id="cart-total">Total: ₱0.00</p>
+            <button id="make-order">Make an Order</button>
+            <button id="empty-cart">Empty Cart</button>
+        </div>
+    </div>
+    <script src="category2.js"></script>
+</body>
+</html>
